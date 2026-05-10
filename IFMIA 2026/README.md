@@ -83,34 +83,9 @@ The CliPR embedding interacts with the fused image representations via **Cross-M
 - 180×180 tumor-centered cropped patches
 - Labels: **lPCa** (low-grade; Gleason Score ≤ 3+4) and **hPCa** (high-grade; Gleason Score ≥ 4+3)
 
-| GS | lPCa | hPCa |
-|---|---|---|
-| 3+3 | 3 | - |
-| 3+4 | 125 | - |
-| 4+3 | - | 82 |
-| 4+4 | - | 14 |
-| 4+5 | - | 19 |
-| 5+4 | - | 3 |
-
 ### Implementation
 
 <img width="1280" height="720" alt="슬라이드12" src="https://github.com/user-attachments/assets/6073812b-bfc8-4f78-967e-769f8d887faf" />
-
-| Config | Value |
-|---|---|
-| GPU | NVIDIA A100 80GB |
-| Image Encoder | ResNet-34 (fine-tuned on GS binary classification) |
-| VLM | MedGemma-27b-it (deterministic sampling) |
-| Text Encoder | BioGPT (1024-dim, Mean Pooling) |
-| Optimizer | AdamW |
-| Base Learning Rate | 5 × 10⁻⁵ |
-| LR Schedule | Cosine Annealing |
-| Weight Decay | 0.0001 |
-| Batch Size | 4 |
-| Epochs | 100 |
-| Cross-Attention Heads | 4 |
-| Classification MLP | 2-layer (512×3 → 128 → 2) |
-| Loss | Cross-Entropy |
 
 ---
 
@@ -119,12 +94,6 @@ The CliPR embedding interacts with the fused image representations via **Cross-M
 ### GS Prediction Performance
 
 <img width="1280" height="720" alt="슬라이드13" src="https://github.com/user-attachments/assets/5049a20a-43a4-4e6f-8505-df1be70b65f4" />
-
-| Methods | Acc. (%) | Sens. (%) | Spec. (%) | AUC |
-|---|---|---|---|---|
-| Image-Only Fusion | 57.35 (±3.75) | **64.83** (±5.67) | 51.79 (±8.96) | 0.63 (±0.02) |
-| Image-CliPR Fusion | 67.65 (±2.75) | 63.45 (±3.09) | 70.77 (±3.44) | 0.67 (±0.01) |
-| **Image-CliPR H-CMA Fusion (Ours)** | **68.24** (±3.83) | 57.24 (±6.26) | **76.41** (±7.12) | **0.69** (±0.02) |
 
 Adding VLM-generated CliPR to the image fusion model **significantly improves performance**, particularly boosting **specificity** and **suppressing false positives** for high-grade cancer.
 
