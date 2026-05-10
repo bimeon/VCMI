@@ -1,4 +1,4 @@
-Link: https://doi.org/10.1117/12.3086018
+Paper: [https://doi.org/10.1117/12.3086018](https://doi.org/10.1117/12.3086018)
 
 <img width="1280" height="720" alt="슬라이드1" src="https://github.com/user-attachments/assets/731aef63-04d0-40e7-a956-65c20a0566be" />
 <img width="1280" height="720" alt="슬라이드2" src="https://github.com/user-attachments/assets/2e295559-73fd-4ca8-a8a3-2d1092a38d92" />
