@@ -12,6 +12,8 @@
 
 ## Overview
 
+<img width="1317" height="1059" alt="image" src="https://github.com/user-attachments/assets/4394b581-ed97-4375-9978-731cf16ea21b" />
+
 Crohn's disease is a chronic inflammatory bowel disease (IBD) requiring precise localization of inflamed regions in MR Enterography (MRE) images for diagnosis and severity assessment. Conventional deep-learning approaches analyze each MRE slice independently, missing the spatial continuity that exists across consecutive slices.
 
 This paper proposes **Multi-Slice Multi-Label (MSML)**, a method that integrates cross-slice spatial context into YOLOv4 by:
@@ -100,6 +102,8 @@ A **modified mAP** is used: all predicted boxes exceeding the IoU threshold are 
 ---
 
 ## Qualitative Analysis
+
+<img width="2065" height="1168" alt="image" src="https://github.com/user-attachments/assets/0c19411f-18ea-4d9f-94c6-9e199e465eb8" />
 
 - **Slice consistency**: SSSL misses lesions in some slices while correctly detecting the same lesion in adjacent slices. MSML detects the same lesion consistently across all consecutive slices.
 - **False positive reduction**: SSSL generates false positives in subtly thickened bowel-wall regions due to appearance similarity with true inflammation. MSML suppresses these by leveraging cross-slice context.
