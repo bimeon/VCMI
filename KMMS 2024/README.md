@@ -3,6 +3,10 @@
 > **Published at:** Korea Multimedia Society Spring Conference 2024 (Vol. 27, No. 1)  
 > **Authors:** SeoHyun Lee†, Hansang Lee†, Helen Hong* 
 > *† Equal contribution · * Corresponding author*
+
+---
+## Paper
+
 [KMMS 2024-Detection of Chronic Inflammatory Bowel Disease Using YOLOv4 with Spatial Information from Continuous Slices.pdf](https://github.com/user-attachments/files/27598506/KMMS.2024-Detection.of.Chronic.Inflammatory.Bowel.Disease.Using.YOLOv4.with.Spatial.Information.from.Continuous.Slices.pdf)
 
 ---
