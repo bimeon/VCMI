@@ -145,10 +145,3 @@ If you find this work useful, please cite:
 ## Acknowledgements
 
 This research was supported by the National Research Foundation of Korea (NRF) funded by the Ministry of Science and ICT (No. RS-2024-00336063 and No. RS-2023-00207947), and by the Seoul Women's University Research Grant (2025).
-
----
-
-## Related Work
-
-- [Lee et al., KMS 2024] Detection of chronic inflammatory disease incorporating spatial information of continuous slices based on YOLOv4.
-- [Lee et al., RSNA 2024] Detection of inflammatory bowel diseases in MRE images with spatially context-aware YOLOv4.
