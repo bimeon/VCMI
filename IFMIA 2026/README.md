@@ -123,35 +123,9 @@ SHAP analysis reveals that:
 
 ---
 
-## 🙏 Acknowledgments
-
-This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT). (No. RS-2023-00207947, RS-2025-00520184)
-
----
-
 ## 👥 Authors
 
 <img width="1280" height="720" alt="슬라이드17" src="https://github.com/user-attachments/assets/61c0c674-d518-4cfe-a22e-c70986a3a267" />
 
-| | Name | Affiliation | Contact |
-|---|---|---|---|
-| | Hansang Lee | Seoul Women's University | hansanglee@swu.ac.kr |
-| | **Seohyun Lee** | Seoul Women's University | seohyunlee@swu.ac.kr |
-| | Sung Il Hwang | Seoul National University | hwangsi49@gmail.com |
-| ✉️ | Helen Hong *(Corresponding)* | Seoul Women's University | hlhong@swu.ac.kr |
 
----
-
-## 📄 Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
-@inproceedings{lee2026beyondclip,
-  title     = {Beyond CLIP: Clinical Knowledge-Guided Vision-Language Fusion for Prostate Cancer Aggressiveness Prediction},
-  author    = {Hansang Lee and Seohyun Lee and Sung Il Hwang and Helen Hong},
-  booktitle = {Proceedings of the International Forum on Medical Imaging in Asia (IFMIA)},
-  year      = {2026}
-}
-```
 
